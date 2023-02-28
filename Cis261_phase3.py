@@ -127,7 +127,7 @@ def PrintTotals(EmpTotals):
        print(f'Total Net Pay: {EmpTotals["TotNetPay"]:,.2f}')
            
 if __name__ == "__main__":
-                 EmpFile = open("employee_details.txt", "a")
+                 EmpFile = open("Employees.txt", "a")
                  EmpDetailList = []    
                  EmpTotals = {}
                  DetailsPrinted = False
